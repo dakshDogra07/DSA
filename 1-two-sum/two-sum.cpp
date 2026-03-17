@@ -1,3 +1,7 @@
+//APPROACH: Used Hashmaps to to store the value and index as key to check if the complement is seen before
+//TC: O(n)  SC: O(1)
+
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
