@@ -14,7 +14,6 @@ public:
             negIndex += 2;
             }
         }
-
         return rearrangedNums;
     }
 };
