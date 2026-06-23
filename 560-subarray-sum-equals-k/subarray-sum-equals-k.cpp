@@ -16,7 +16,7 @@ public:
         val = prefixSum[j] - k;
 
     
-        if(m.count(val)) count = count + m[val];
+        if(m.find(val) != m.end()) count = count + m[val];
 
         m[prefixSum[j]]++;
        }
